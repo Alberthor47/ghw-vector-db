@@ -1,0 +1,26 @@
+{
+    "name": "mflix-semantic-search",
+    "version": "1.0.0",
+    "description": "Semantic movie search using MongoDB Atlas Vector Search and Voyage AI",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node index.js",
+        "search": "node search.js"
+    },
+    "keywords": [
+        "mongodb",
+        "vector-search",
+        "voyage-ai",
+        "semantic-search",
+        "mflix"
+    ],
+        "author": "",
+        "license": "MIT",
+        "dependencies": {
+        "dotenv": "^16.3.1",
+        "mongodb": "^6.3.0",
+        "voyageai": "^0.0.3",
+        "readline": "^1.3.0"
+    }
+}
